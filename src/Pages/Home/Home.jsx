@@ -88,7 +88,6 @@ export default function Home() {
 
   return (
     <div className={style.container}>
-      {/* <h1>Card Display</h1> */}
 
       <div className={style.box}>
         {cardsData.map((card, index) => (
